@@ -1,4 +1,4 @@
-import { ConfigSizesInfo, LeftModuleInfo, LogService, RightModuleInfo, UhkBuffer } from 'uhk-common';
+import { Buffer, ConfigSizesInfo, LeftModuleInfo, LogService, RightModuleInfo, UhkBuffer } from 'uhk-common';
 import { DataOption, KBoot, Properties, UsbPeripheral } from 'kboot';
 
 import {
@@ -10,7 +10,6 @@ import {
     ModuleSlotToI2cAddress,
     ModuleSlotToId
 } from './constants';
-import * as path from 'path';
 import * as fs from 'fs';
 import * as os from 'os';
 import { UhkBlhost } from './uhk-blhost';
